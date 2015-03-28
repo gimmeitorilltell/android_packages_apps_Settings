@@ -45,8 +45,6 @@ LOCAL_AAPT_FLAGS := \
         --auto-add-overlay \
         --extra-packages com.mokee.helper \
         --extra-packages android.support.v7.cardview
-LOCAL_SRC_FILES += $(call all-java-files-under,../../../external/mokee/MoKeeHelper/MoKeeHelper/src)
-LOCAL_RESOURCE_DIR := $(LOCAL_RESOURCE_DIR) $(LOCAL_PATH)/../../../external/mokee/MoKeeHelper/MoKeeHelper/res $(LOCAL_PATH)/../../../external/mokee/MoKeeHelper/MoKeeHelper/res-pay
 
 LOCAL_ASSET_DIR := $(LOCAL_PATH)/assets
 
