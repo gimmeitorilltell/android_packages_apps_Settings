@@ -249,7 +249,6 @@ public class SettingsActivity extends Activity
             R.id.account_settings,
             R.id.system_section,
             R.id.date_time_settings,
-            R.id.mokee_center,
             R.id.about_settings,
             R.id.accessibility_settings,
             R.id.print_settings,
@@ -1262,10 +1261,6 @@ public class SettingsActivity extends Activity
                             getResources().getBoolean(R.bool.config_hidePerformanceSettings);
                     if (forceHide ||
                             !(pm.hasPowerProfiles() || (showDev && !Build.TYPE.equals("user")))) {
-                        removeTile = true;
-                    }
-                } else if (id == R.id.mokee_center) {
-                    if (UserHandle.myUserId() != UserHandle.USER_OWNER) {
                         removeTile = true;
                     }
                 }

@@ -14,8 +14,7 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 	UPPayPluginEx \
 	WanpuPay \
 	MobileSec \
-	Utdid4all \
-	PayPal
+	Utdid4all
 
 LOCAL_MODULE_TAGS := optional
 
